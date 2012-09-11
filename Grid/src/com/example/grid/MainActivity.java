@@ -68,6 +68,7 @@ public class MainActivity extends Activity {
         aux.add((ImageView) findViewById(R.id.square3_10));
         square.add(aux);
         
+        
         aux = new ArrayList<ImageView>(10);
         aux.add((ImageView) findViewById(R.id.square4_1));
         aux.add((ImageView) findViewById(R.id.square4_2));
