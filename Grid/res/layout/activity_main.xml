@@ -1,0 +1,1039 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF" >
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/runLabel"
+             android:text=""
+             android:layout_height="wrap_content"
+             android:textColor="#000"
+             />
+         <TextView
+             android:id="@+id/hitLabe2"
+             android:text="1"
+             android:layout_height="wrap_content"
+             android:textColor="#000"
+             />
+         <TextView
+             android:id="@+id/errorLabe3"
+             android:text="2"
+             android:layout_height="wrap_content"
+             android:textColor="#000"
+             />
+         <TextView
+             android:id="@+id/hitLabe4"
+             android:text="3"
+             android:layout_height="wrap_content"
+             android:textColor="#000"
+             />
+         <TextView
+             android:id="@+id/errorLabe"
+             android:text="4"
+             android:layout_height="wrap_content"
+             android:textColor="#000"/>
+         <TextView
+             android:id="@+id/hitLabe2"
+             android:text="5"
+             android:layout_height="wrap_content"
+             android:textColor="#000"/>
+         <TextView
+             android:id="@+id/errorLabel"
+             android:text="6"
+             android:layout_height="wrap_content"
+             android:textColor="#000"/>
+         <TextView
+             android:id="@+id/hitLabel"
+             android:text="7"
+             android:layout_height="wrap_content"
+             android:textColor="#000"/>
+         <TextView
+             android:id="@+id/errorLabel"
+             android:text="8"
+             android:layout_height="wrap_content"
+             android:textColor="#000"/>
+         <TextView
+             android:id="@+id/hitLabel"
+             android:text="9"
+             android:layout_height="wrap_content"
+             android:textColor="#000"/>
+         <TextView
+             android:id="@+id/errorLabel"
+             android:text="10"
+             android:layout_height="wrap_content"
+             android:textColor="#000"/>
+     </TableRow>
+
+     <TableRow android:layout_height="wrap_content">
+
+         <TextView
+             android:id="@+id/letterA"
+             android:layout_height="wrap_content"
+             android:clickable="true"
+             android:onClick="onclick"
+             android:text="A"
+             android:textColor="#000"/>
+
+		 <ImageView
+	         android:id="@+id/square1_1"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1"
+	          />
+		
+         <ImageView
+	         android:id="@+id/square1_2"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square1_3"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square1_4"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square1_5"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+		<ImageView
+	         android:id="@+id/square1_6"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />         
+
+         <ImageView
+	         android:id="@+id/square1_7"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square1_8"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1"
+	         />
+         
+         <ImageView
+	         android:id="@+id/square1_9"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square1_10"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+     </TableRow>
+     <TableRow android:layout_height="wrap_content">
+
+         <TextView
+             android:id="@+id/letterB"
+             android:layout_height="wrap_content"
+             android:clickable="true"
+             android:onClick="onclick"
+             android:text="B"
+             android:textColor="#000"/>
+
+		 <ImageView
+	         android:id="@+id/square2_1"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1"
+	          />
+		
+         <ImageView
+	         android:id="@+id/square2_2"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square2_3"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square2_4"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square2_5"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+		<ImageView
+	         android:id="@+id/square2_6"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />         
+
+         <ImageView
+	         android:id="@+id/square2_7"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square2_8"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1"
+	         />
+         
+         <ImageView
+	         android:id="@+id/square2_9"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square2_10"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+     </TableRow>
+     <TableRow android:layout_height="wrap_content">
+
+         <TextView
+             android:id="@+id/letterC"
+             android:layout_height="wrap_content"
+             android:clickable="true"
+             android:onClick="onclick"
+             android:text="C"
+             android:textColor="#000"/>
+
+		 <ImageView
+	         android:id="@+id/square3_1"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1"
+	          />
+		
+         <ImageView
+	         android:id="@+id/square3_2"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square3_3"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square3_4"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square3_5"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+		<ImageView
+	         android:id="@+id/square3_6"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />         
+
+         <ImageView
+	         android:id="@+id/square3_7"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square3_8"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1"
+	         />
+         
+         <ImageView
+	         android:id="@+id/square3_9"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square3_10"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+     </TableRow>
+     <TableRow android:layout_height="wrap_content">
+
+         <TextView
+             android:id="@+id/letterD"
+             android:layout_height="wrap_content"
+             android:clickable="true"
+             android:onClick="onclick"
+             android:text="D"
+             android:textColor="#000"/>
+
+		 <ImageView
+	         android:id="@+id/square4_1"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1"
+	          />
+		
+         <ImageView
+	         android:id="@+id/square4_2"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square4_3"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square4_4"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square4_5"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+		<ImageView
+	         android:id="@+id/square4_6"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />         
+
+         <ImageView
+	         android:id="@+id/square4_7"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square4_8"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1"
+	         />
+         
+         <ImageView
+	         android:id="@+id/square4_9"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square4_10"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+     </TableRow>
+     <TableRow android:layout_height="wrap_content">
+         <TextView
+             android:id="@+id/letterE"
+             android:layout_height="wrap_content"
+             android:clickable="true"
+             android:onClick="onclick"
+             android:text="E"
+             android:textColor="#000"/>
+
+		 <ImageView
+	         android:id="@+id/square5_1"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1"
+	          />
+		
+         <ImageView
+	         android:id="@+id/square5_2"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square5_3"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square5_4"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square5_5"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+		<ImageView
+	         android:id="@+id/square5_6"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />         
+
+         <ImageView
+	         android:id="@+id/square5_7"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square5_8"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1"
+	         />
+         
+         <ImageView
+	         android:id="@+id/square5_9"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square5_10"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+     </TableRow>
+     <TableRow android:layout_height="wrap_content">
+
+         <TextView
+             android:id="@+id/letterF"
+             android:layout_height="wrap_content"
+             android:clickable="true"
+             android:onClick="onclick"
+             android:text="F"
+             android:textColor="#000"/>
+
+		 <ImageView
+	         android:id="@+id/square6_1"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1"
+	          />
+		
+         <ImageView
+	         android:id="@+id/square6_2"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square6_3"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square6_4"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square6_5"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+		<ImageView
+	         android:id="@+id/square6_6"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />         
+
+         <ImageView
+	         android:id="@+id/square6_7"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square6_8"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1"
+	         />
+         
+         <ImageView
+	         android:id="@+id/square6_9"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square6_10"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+     </TableRow>
+     <TableRow android:layout_height="wrap_content">
+
+         <TextView
+             android:id="@+id/letterG"
+             android:layout_height="wrap_content"
+             android:clickable="true"
+             android:onClick="onclick"
+             android:text="G"
+             android:textColor="#000"/>
+
+		 <ImageView
+	         android:id="@+id/square7_1"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1"
+	          />
+		
+         <ImageView
+	         android:id="@+id/square7_2"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square7_3"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square7_4"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square7_5"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+		<ImageView
+	         android:id="@+id/square7_6"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />         
+
+         <ImageView
+	         android:id="@+id/square7_7"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square7_8"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1"
+	         />
+         
+         <ImageView
+	         android:id="@+id/square7_9"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square7_10"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+     </TableRow>
+     <TableRow android:layout_height="wrap_content">
+
+         <TextView
+             android:id="@+id/letterH"
+             android:layout_height="wrap_content"
+             android:clickable="true"
+             android:onClick="onclick"
+             android:text="H"
+             android:textColor="#000"/>
+
+		 <ImageView
+	         android:id="@+id/square8_1"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1"
+	          />
+		
+         <ImageView
+	         android:id="@+id/square8_2"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square8_3"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square8_4"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square8_5"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+		<ImageView
+	         android:id="@+id/square8_6"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />         
+
+         <ImageView
+	         android:id="@+id/square8_7"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square8_8"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1"
+	         />
+         
+         <ImageView
+	         android:id="@+id/square8_9"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square8_10"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+     </TableRow>
+     <TableRow android:layout_height="wrap_content">
+
+         <TextView
+             android:id="@+id/letterI"
+             android:layout_height="wrap_content"
+             android:clickable="true"
+             android:onClick="onclick"
+             android:text="I"
+             android:textColor="#000"/>
+
+		 <ImageView
+	         android:id="@+id/square9_1"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1"
+	          />
+		
+         <ImageView
+	         android:id="@+id/square9_2"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square9_3"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square9_4"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square9_5"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+		<ImageView
+	         android:id="@+id/square9_6"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />         
+
+         <ImageView
+	         android:id="@+id/square9_7"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square9_8"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1"
+	         />
+         
+         <ImageView
+	         android:id="@+id/square9_9"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square9_10"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+     </TableRow>
+     <TableRow android:layout_height="wrap_content">
+
+         <TextView
+             android:id="@+id/letterJ"
+             android:layout_height="wrap_content"
+             android:clickable="true"
+             android:onClick="onclick"
+             android:text="J"
+             android:textColor="#000"/>
+
+		 <ImageView
+	         android:id="@+id/square10_1"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1"
+	          />
+		
+         <ImageView
+	         android:id="@+id/square10_2"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square10_3"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square10_4"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square10_5"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+		<ImageView
+	         android:id="@+id/square10_6"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />         
+
+         <ImageView
+	         android:id="@+id/square10_7"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square10_8"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1"
+	         />
+         
+         <ImageView
+	         android:id="@+id/square10_9"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+         
+         <ImageView
+	         android:id="@+id/square10_10"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:clickable="true"
+	         android:onClick="onclick"
+	         android:src="@drawable/pic1" />
+     </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/portaavioes"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onclickchip"
+                android:text="Porta Aviões" />
+            
+            <Button
+                android:id="@+id/destroier"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onclickchip"
+                android:text="Destroier" />
+            
+            <Button
+                android:id="@+id/cruzador"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onclickchip"
+                android:text="Cruzador" />
+            
+            <Button
+                android:id="@+id/submarino"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onclickchip"
+                android:text="Submarino" />
+
+            <TextView
+                android:id="@+id/txterror"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+        </LinearLayout>
+
+    </LinearLayout>
