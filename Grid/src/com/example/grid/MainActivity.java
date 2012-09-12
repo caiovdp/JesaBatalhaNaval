@@ -281,18 +281,16 @@ public class MainActivity extends Activity {
     	TextView txt2 = (TextView) findViewById(R.id.txterror);
     	txt2.setText("x"+ coordenada[1] + "Y" + this.type_navio +"test "+(coordenada[1]+this.type_navio));
 
-    	if(coordenada[1]+2 <= 11){
+    	if(coordenada[1]+3 <= 11){
     		ArrayList<ImageView> line = square.get(coordenada[0]-1);
     		boolean valid = true;
     		int j = coordenada[1]-1;
     		while (j < coordenada[1]+2){
     			if(cmp[coordenada[0]-1][j] == 1){
     				valid = false;
-    		
     			}
     			j++;
     		}
-    		
     		
     		ImageView img2;
     		img2 = (ImageView) v;
