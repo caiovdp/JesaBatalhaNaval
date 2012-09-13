@@ -2,14 +2,14 @@ package com.example.modelo;
 
 public class Jogador {
 	
-	double Ranking[];
+	Double Ranking;
 	String Nome;
 	
-	public double[] getRanking() {
+	public Double getRanking() {
 		return Ranking;
 	}
 
-	public void setRanking(double Ranking[]) {
+	public void setRanking(Double Ranking) {
 		this.Ranking = Ranking;
 	}
 	

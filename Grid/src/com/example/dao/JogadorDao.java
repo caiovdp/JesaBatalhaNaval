@@ -6,22 +6,23 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-public class JogadorDao {
+public class JogadorDao extends SQLiteOpenHelper{
 	
 	private static final String NOMEBANCO = "BatalhaNaval.db";
 	private static final String NOMETABELA = "Jogadores";
 	private static final int VERSAO = 1;
 	private static SQLiteDatabase db;
-	private static final String[] COLS = new String[]{"idJogador","nome","ranking"};
+	//private static final String[] COLS = new String[]{"idJogador","nome","ranking"};
 	
-	/*	
+		
 	public JogadorDao(Context ctx){
 		super(ctx, NOMEBANCO, null, VERSAO);
 		db = this.getWritableDatabase();
 	}
-	*/
+	
 	public void onCreate(SQLiteDatabase db) {
 		String sql = 	
 		"CREATE TABLE " + NOMETABELA + 
@@ -52,7 +53,9 @@ public class JogadorDao {
 	public static void save(Jogador jogador){
 		ContentValues values = new ContentValues();
 		values.put("nome", jogador.getNome());
-		//values.put("ranking", jogador.getRanking());
+		values.put("ranking", jogador.getRanking());
 		db.insert(NOMETABELA, null, values);
 	}
+	
+	//criar para pegar a lista de ranking no servidor
 }

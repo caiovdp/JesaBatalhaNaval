@@ -2,10 +2,7 @@ package com.example.grid;
 
 import java.util.ArrayList;
 
-import android.R.bool;
 import android.app.Activity;
-import android.content.res.Resources;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
