@@ -1,13 +1,17 @@
 <resources>
 
     <string name="app_name">Grid</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">MainActivity</string>
-    <string name="onclick">onclick</string>
     <string name="Welcome">Bem Vindo!</string>
     <string name="Username">Nome</string>
     <string name="Cmp_Nome">Nome</string>
     <string name="Btn_Salvar">Salvar</string>
+    <string name="Btn_UmJogador">Um Jogador</string>
+    <string name="Btn_DoisJogadores">Dois Jogadores</string>
+    <string name="Btn_Opcoes">Opções</string>
+    <string name="Btn_Sair">Sair</string>
+    <string name="Txt_BatalhaNaval">Batalha Naval</string>
+    <string name="Txt_CampoBatalha">Campo de Batalha</string>
+    <string name="Txt_CadastroJogador">Cadastro de Jogador</string>
+    <string name="menu_settings">Settings</string>
 
 </resources>

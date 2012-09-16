@@ -12,7 +12,7 @@ import android.util.Log;
 public class JogadorDao extends SQLiteOpenHelper{
 	
 	private static final String NOMEBANCO = "BatalhaNaval.db";
-	private static final String NOMETABELA = "Jogadores";
+	private static final String NOMETABELA = "Jogador";
 	private static final int VERSAO = 1;
 	private static SQLiteDatabase db;
 	//private static final String[] COLS = new String[]{"idJogador","nome","ranking"};
@@ -27,7 +27,7 @@ public class JogadorDao extends SQLiteOpenHelper{
 		String sql = 	
 		"CREATE TABLE " + NOMETABELA + 
 		"(id INTEGER PRIMARY KEY AUTOINCREMENT," +
-		" nota DOUBLE);";
+		" jodador VARCHAR(20));";
 		try {
 			db.execSQL(sql);
 			JogadorDao.db = db;
@@ -53,7 +53,6 @@ public class JogadorDao extends SQLiteOpenHelper{
 	public static void save(Jogador jogador){
 		ContentValues values = new ContentValues();
 		values.put("nome", jogador.getNome());
-		values.put("ranking", jogador.getRanking());
 		db.insert(NOMETABELA, null, values);
 	}
 	

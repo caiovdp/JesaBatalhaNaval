@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/Btn_UmJogador"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="180dp"
+        android:text="@string/Btn_UmJogador" />
+
+    <Button
+        android:id="@+id/Btn_DoisJogadores"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Btn_UmJogador"
+        android:text="@string/Btn_DoisJogadores" />
+
+    <Button
+        android:id="@+id/Btn_Opcoes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Btn_DoisJogadores"
+        android:text="@string/Btn_Opcoes" />
+
+    <Button
+        android:id="@+id/Btn_Sair"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Btn_Opcoes"
+        android:text="@string/Btn_Sair" />
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Btn_UmJogador"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="84dp"
+        android:text="@string/Txt_BatalhaNaval"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
